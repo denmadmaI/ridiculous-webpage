@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Calculator</title>
+    <link rel = "stylesheet" href = "CSS/normalize.css">
+    <link rel = "stylesheet" href = "CSS/pure-min.css">
+    <link rel = "stylesheet" href = "CSS/side-menu.css">
+    <script src = "javascript/optical_calculator.js"></script>
+</head>
+<body onload="init('Optical_Calculator')">
+        <div id="layout">
+            <a href="#menu" id="menuLink" class="menu-link">
+                <span></span>
+            </a>
+        
+            <div id="menu">
+                <div class="pure-menu">
+                    <a class="pure-menu-heading" href="#">FINISAR</a>
+        
+                    <ul class="pure-menu-list">
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Home</a></li>
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">About</a></li>
+        
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Services</a>
+                        </li>
+        
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div id="main">
+                <div class="header">
+                    <h1>Optical to Electrical Calculator</h1>
+                </div>
+        
+                <div class="content">        
+                    <h2 class="content-subhead">Optical Calculator</h2>
+                    <form class="pure-form pure-form-aligned" id="Optical_Calculator" onchange="update()"></form>
+                    <span class="pure-form-message-inline" id = "message_space">Watch this space.</span>               
+                </div>
+            </div>
+        </div>
+    <script src = "javascript/ui.js"></script>
+</body>
